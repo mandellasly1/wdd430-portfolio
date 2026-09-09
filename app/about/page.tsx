@@ -11,6 +11,7 @@ export default function About() {
         in building scalable web applications.
       </p>
 
+
       <h3 className="text-2xl font-semibold mb-4 text-blue-600">Meet the Team</h3>
       <div className="space-y-4">
         <TeamMember

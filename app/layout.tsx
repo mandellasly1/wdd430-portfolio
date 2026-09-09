@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   description: 'E-Commerce Site For WDD430 Students',
 }
 
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">

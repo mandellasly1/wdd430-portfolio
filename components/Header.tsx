@@ -9,6 +9,7 @@ export default function Header() {
           Nelson Mandella Akpomah
         </div>
 
+
         {/* Right side: Navigation */}
         <nav>
           <ul className="flex gap-6 justify-end">

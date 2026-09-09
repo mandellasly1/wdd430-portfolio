@@ -22,4 +22,5 @@ export async function GET() {
       }
     ]
   })
+  
 }
