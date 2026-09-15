@@ -8,13 +8,18 @@ export default function Header() {
         <div id="header-title" className="text-2xl font-bold">
           Nelson Mandella Akpomah
         </div>
-
-
         {/* Right side: Navigation */}
         <nav>
           <ul className="flex gap-6 justify-end">
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/about">About</Link></li>
+            <li>
+              <Link href="/" className="hover:text-yellow-400">Home</Link>
+            </li>
+            <li>
+              <Link href="/about" className="hover:text-yellow-400">About</Link>
+            </li>
+            <li>
+              <Link href="/projects" className="hover:text-yellow-400">Projects</Link>
+            </li>
           </ul>
         </nav>
       </div>
