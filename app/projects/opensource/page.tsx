@@ -1,5 +1,15 @@
-export default function OpenSourceProjects() {
+export default async function OpenSourceProjects() {
+  const res = await fetch('http://localhost:3000/api/projects?type=opensource');
+  const projects = await res.json();
+
   return (
-    <h1 className="text-2xl font-bold text-blue-600">Open Source Projects</h1>
+    <div>
+      <h1 className="text-2xl font-bold text-blue-600">Open Source Projects</h1>
+      <ul>
+        {projects.map((p: any) => (
+          <li key={p.id}>{p.title} - {p.description}</li>
+        ))}
+      </ul>
+    </div>
   );
 }

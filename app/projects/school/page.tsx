@@ -1,5 +1,15 @@
-export default function SchoolProjects() {
+export default async function SchoolProjects() {
+  const res = await fetch('http://localhost:3000/api/projects?type=school');
+  const projects = await res.json();
+
   return (
-    <h1 className="text-2xl font-bold text-blue-600">School Projects</h1>
+    <div>
+      <h1 className="text-2xl font-bold text-blue-600">School Projects</h1>
+      <ul>
+        {projects.map((p: any) => (
+          <li key={p.id}>{p.title} - {p.description}</li>
+        ))}
+      </ul>
+    </div>
   );
 }

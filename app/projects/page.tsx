@@ -1,6 +1,15 @@
-export default function ProjectsPage() {
+export default async function ProjectsPage() {
+  const res = await fetch('http://localhost:3000/api/projects');
+  const projects = await res.json();
+
   return (
-    <h1 className="text-2xl font-bold text-blue-600">Projects Overview</h1>
-    
+    <div>
+      <h1 className="text-2xl font-bold text-blue-600">Projects Overview</h1>
+      <ul>
+        {projects.map((p: any) => (
+          <li key={p.id}>{p.title} - {p.description}</li>
+        ))}
+      </ul>
+    </div>
   );
 }
