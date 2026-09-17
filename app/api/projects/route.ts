@@ -7,4 +7,5 @@ export async function GET(request: NextRequest) {
 
   const data = getProjects(type);
   return NextResponse.json(data);
+
 }
