@@ -2,7 +2,7 @@
 export const dynamic = 'force-dynamic';
 
 export default async function ProjectsPage() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/projects`);
+  const res = await fetch('/api/projects',);
 
   const projects = await res.json();
 
