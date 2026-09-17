@@ -1,40 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WDD430 Portfolio
 
-## Live Deployment
-The application is deployed on Vercel: [https://wdd430-portfolio-mandellasly1.vercel.app](https://wdd430-portfolio-mandellasly1.vercel.app)
+This is my portfolio project built with [Next.js](https://nextjs.org).  
+It showcases my featured projects, including school work, open‑source contributions, and an e‑commerce application.
 
+## 🚀 Live Deployment
+[https://wdd430-portfolio-mandellasly1.vercel.app](https://wdd430-portfolio-mandellasly1.vercel.app)
 
-## Getting Started
+## 🛠 Tech Stack
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Vercel (deployment)
 
-First, run the development server:
+## 📂 Project Overview
+This portfolio highlights my projects and skills. It uses API routes for project data and dynamic rendering to display both school and open‑source work. The site is styled with Tailwind CSS and optimized for deployment on Vercel.
+
+### 🔹 Featured Projects
+- **Portfolio Website** — A Next.js app showcasing my projects and skills.
+- **E‑Commerce Project** — A demo online store built with Next.js and Tailwind CSS.  
+  Features include:
+  - Product listing and detail pages
+  - Shopping cart functionality
+  - Checkout flow
+  - Responsive design for mobile and desktop
+
+## 📦 Getting Started
+
+Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/mandellasly1/wdd430-portfolio.git
+cd wdd430-portfolio
