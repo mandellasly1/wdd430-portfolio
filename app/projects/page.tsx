@@ -2,8 +2,7 @@
 export const dynamic = 'force-dynamic';
 
 export default async function ProjectsPage() {
-  const res = await fetch('/api/projects',);
-
+  const res = await fetch('/api/projects', { cache: 'no-store' });
   const projects = await res.json();
 
   return (

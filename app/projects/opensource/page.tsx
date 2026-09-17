@@ -1,5 +1,5 @@
 export default async function OpenSourceProjects() {
-  const res = await fetch('http://localhost:3000/api/projects?type=opensource');
+  const res = await fetch('/api/projects?type=opensource');
   const projects = await res.json();
 
   return (

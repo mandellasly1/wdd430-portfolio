@@ -1,5 +1,5 @@
 export default async function SchoolProjects() {
-  const res = await fetch('http://localhost:3000/api/projects?type=school');
+  const res = await fetch('/api/projects?type=school');
   const projects = await res.json();
 
   return (
