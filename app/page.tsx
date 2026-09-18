@@ -5,19 +5,19 @@ const products = [
     title: 'Wireless Headphones',
     description: 'High‑quality sound with noise cancellation.',
     technologies: ['Bluetooth', 'Noise Cancelling'],
-    link: '/products/headphones'
+    link: '/projects/products/headphones'
   },
   {
     title: 'Smart Watch',
     description: 'Track your fitness and stay connected.',
     technologies: ['Health Tracking', 'Notifications'],
-    link: '/products/smartwatch'
+    link: '/projects/products/smartwatch'
   },
   {
     title: 'Gaming Laptop',
     description: 'Powerful performance for gaming and productivity.',
     technologies: ['Intel i7', 'RTX Graphics'],
-    link: '/products/laptop'
+    link: '/projects/products/laptop'
   }
 ]
 
