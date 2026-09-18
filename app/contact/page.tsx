@@ -59,7 +59,7 @@ export default function ContactPage() {
                     href="mailto:your@email.com"
                     className="mt-1 block font-medium hover:text-blue-200"
                   >
-                    your@email.com
+                    akpomah_nelson@yahoo.com
                   </a>
                 </div>
               </div>
@@ -79,7 +79,7 @@ export default function ContactPage() {
                     href="tel:+2340000000000"
                     className="mt-1 block font-medium hover:text-blue-200"
                   >
-                    +234 000 000 0000
+                    +234 9032345914
                   </a>
                 </div>
               </div>
@@ -113,7 +113,7 @@ export default function ContactPage() {
                     href="#"
                     className="flex h-11 w-11 items-center justify-center rounded-full bg-white/15 font-bold transition hover:bg-white hover:text-blue-600"
                   >
-                    GH
+                    FB
                   </a>
 
                   <a

@@ -32,6 +32,7 @@ export default function SmartWatchPage() {
                 src="/smartwatch.jpg"
                 alt="Smart Watch"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-contain p-8 drop-shadow-2xl"
                 priority
               />

@@ -28,6 +28,7 @@ export default function LaptopPage() {
                 src="/laptop.jpg"
                 alt="Gaming Laptop"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-contain p-8 drop-shadow-2xl"
                 priority
               />

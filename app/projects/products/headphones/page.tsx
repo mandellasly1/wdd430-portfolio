@@ -24,10 +24,11 @@ export default function HeadphonesPage() {
 
             <div className="relative z-10 flex h-[350px] w-[90%] items-center justify-center rounded-3xl bg-white/70 p-6 shadow-2xl backdrop-blur">
 
-              <Image
+            <Image
                 src="/headphones.jpg"
                 alt="Wireless Headphones"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-contain p-8 drop-shadow-2xl"
                 priority
               />
